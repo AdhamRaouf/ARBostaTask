@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A878D3D2D0DD4BE007FE6ED /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D3C2D0DD4BE007FE6ED /* CombineMoya */; };
+		5A878D3F2D0DD4BE007FE6ED /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D3E2D0DD4BE007FE6ED /* Moya */; };
+		5A878D412D0DD4BE007FE6ED /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D402D0DD4BE007FE6ED /* ReactiveMoya */; };
+		5A878D432D0DD4BE007FE6ED /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D422D0DD4BE007FE6ED /* RxMoya */; };
+		5A878D462D0DD4D7007FE6ED /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D452D0DD4D7007FE6ED /* CombineCocoa */; };
+		5A878D492D0DE666007FE6ED /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D482D0DE666007FE6ED /* SDWebImage */; };
+		5A878D4B2D0DE666007FE6ED /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D4A2D0DE666007FE6ED /* SDWebImageMapKit */; };
+		5A878D4E2D0DF9CC007FE6ED /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A878D4D2D0DF9CC007FE6ED /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5A878CDC2D0D553D007FE6ED /* ARBostaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBostaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +47,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A878D492D0DE666007FE6ED /* SDWebImage in Frameworks */,
+				5A878D4E2D0DF9CC007FE6ED /* IQKeyboardManagerSwift in Frameworks */,
+				5A878D432D0DD4BE007FE6ED /* RxMoya in Frameworks */,
+				5A878D3D2D0DD4BE007FE6ED /* CombineMoya in Frameworks */,
+				5A878D412D0DD4BE007FE6ED /* ReactiveMoya in Frameworks */,
+				5A878D462D0DD4D7007FE6ED /* CombineCocoa in Frameworks */,
+				5A878D4B2D0DE666007FE6ED /* SDWebImageMapKit in Frameworks */,
+				5A878D3F2D0DD4BE007FE6ED /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,14 @@
 			);
 			name = ARBostaTask;
 			packageProductDependencies = (
+				5A878D3C2D0DD4BE007FE6ED /* CombineMoya */,
+				5A878D3E2D0DD4BE007FE6ED /* Moya */,
+				5A878D402D0DD4BE007FE6ED /* ReactiveMoya */,
+				5A878D422D0DD4BE007FE6ED /* RxMoya */,
+				5A878D452D0DD4D7007FE6ED /* CombineCocoa */,
+				5A878D482D0DE666007FE6ED /* SDWebImage */,
+				5A878D4A2D0DE666007FE6ED /* SDWebImageMapKit */,
+				5A878D4D2D0DF9CC007FE6ED /* IQKeyboardManagerSwift */,
 			);
 			productName = ARBostaTask;
 			productReference = 5A878CDC2D0D553D007FE6ED /* ARBostaTask.app */;
@@ -107,6 +134,12 @@
 			);
 			mainGroup = 5A878CD32D0D553D007FE6ED;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */,
+				5A878D442D0DD4D7007FE6ED /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				5A878D472D0DE666007FE6ED /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				5A878D4C2D0DF9CC007FE6ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A878CDD2D0D553D007FE6ED /* Products */;
 			projectDirPath = "";
@@ -150,7 +183,6 @@
 				INFOPLIST_FILE = ARBostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +210,6 @@
 				INFOPLIST_FILE = ARBostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -246,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -303,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -335,6 +366,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		5A878D442D0DD4D7007FE6ED /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		5A878D472D0DE666007FE6ED /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		5A878D4C2D0DF9CC007FE6ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A878D3C2D0DD4BE007FE6ED /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		5A878D3E2D0DD4BE007FE6ED /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		5A878D402D0DD4BE007FE6ED /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		5A878D422D0DD4BE007FE6ED /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D3B2D0DD4BE007FE6ED /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		5A878D452D0DD4D7007FE6ED /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D442D0DD4D7007FE6ED /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		5A878D482D0DE666007FE6ED /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D472D0DE666007FE6ED /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5A878D4A2D0DE666007FE6ED /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D472D0DE666007FE6ED /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		5A878D4D2D0DF9CC007FE6ED /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A878D4C2D0DF9CC007FE6ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A878CD42D0D553D007FE6ED /* Project object */;
 }
